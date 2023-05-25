@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+	<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="cadastro">
+
+			<div class="header">
+				<h3>Cadastro de Pessoas</h3>
+			</div>
+
+			<div class="cadastro-table">
+				<form>
+					<label for="fname">Nome:</label>
+					<input type="text" id="fname" required>
+					<label for="ffuncao">Função:</label>
+					<input type="text" id="ffuncao" required>
+
+					
+				</form>
+				<button id="btnSalvar">Salvar</button>	
+			</div>
+
+			<div class="dados-pessoas">
+				<div class="header">
+					<h3>Pessoas Cadastradas</h3>
+				</div>				
+				<table>
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>Função</th>
+							<th class="acao">Editar</th>
+							<th class="acao">Excluir</th>
+						</tr>
+					</thead>	
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
+
